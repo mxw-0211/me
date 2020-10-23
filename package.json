@@ -1,0 +1,26 @@
+{
+  "name": "e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "dev": "pm2 start ./src/index.js --watch",
+    "list": "pm2 list",
+    "log": "pm2 log",
+    "stop": "pm2 stop ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "pm2": "^4.5.0"
+  }
+}
